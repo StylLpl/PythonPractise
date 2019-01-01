@@ -41,5 +41,10 @@ def LinearRegression():
     plt.show()
 
     print("weight = ", w_1 * 160 + w_0)
+    print(w_1, w_0)
+
+
+
 
 LinearRegression()
+
