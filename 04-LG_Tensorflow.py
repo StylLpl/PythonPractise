@@ -25,6 +25,8 @@ print(y)
 loss = tf.reduce_mean(tf.square(y - y_data))
 
 #with this data recommanding using adam optimizer
+#(gradient descent no vuot qua diem cuc tieu rat nhanh nen loss bi phan ki
+# va tang len gia tri infinity nen ko toi uu dc)
 optimizer = tf.train.AdamOptimizer(0.9)
 # optimizer = tf.train.GradientDescentOptimizer(0.5)
 train = optimizer.minimize(loss)
