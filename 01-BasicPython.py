@@ -1,4 +1,5 @@
 import numpy as np
+i
 
 A = np.array([1, 2, 3])
 B = np.array([4, 5, 6])
@@ -116,8 +117,11 @@ def generate():
 Z = np.fromiter(generate(), dtype=float, count=-1)
 print(Z)
 
+print("create a 5x5 matrix row values ranging from 0 to 4")
 Z = np.zeros((5, 5))
 Z += np.arange(5)
 print(Z)
+
+
 
 
